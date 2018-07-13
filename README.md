@@ -23,8 +23,8 @@
 > * batch_count: 批量查询ip的值, 意为在此次调用中, 能同时进行的ip查询请求量, 对于单个ip无效.
 >
 > 返回值:
-> 	* 如果传入的ip是ip字符串, 则返回`(ip, result)`, ip表示传入的ip值, result可能为一个`Exception`对象, 也可能是查询到的结果.
-> 	* 如果传入的是可迭代对象, 则返回一个字典, key为每一个ip, value可能为一个`Exception`对象, 也可能是查询到的结果.
+> * 如果传入的ip是ip字符串, 则返回`(ip, result)`, ip表示传入的ip值, result可能为一个`Exception`对象, 也可能是查询到的结果.
+> * 如果传入的是可迭代对象, 则返回一个字典, key为每一个ip, value可能为一个`Exception`对象, 也可能是查询到的结果.
 
 > #### `def iter(self, ip, batch_count = 3)`
 > 
