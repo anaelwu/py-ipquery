@@ -1,5 +1,5 @@
 # ipquery
-> 基于淘宝IP归属地查询的API(http://ip.taobao.com/service/getIpInfo.php)的python封装, 异步网络, 支持批量执行与迭代.
+> 基于[淘宝IP归属地查询的API](http://ip.taobao.com/service/getIpInfo.php)的python封装, 异步网络, 支持批量执行与迭代.
 > 支持的python版本: python>=3.5.
 
 ## install
